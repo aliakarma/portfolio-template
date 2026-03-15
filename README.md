@@ -11,7 +11,7 @@ dashboard with BibTeX export, project modals, skill radar chart, and more.
 
 ## 🌐 Live Demo
 
-[View Demo →](https://YOUR_DEMO_LINK_HERE)
+[View Demo →]([https://YOUR_DEMO_LINK_HERE](https://portfolio-template-mauve-one.vercel.app/))
 
 ---
 
