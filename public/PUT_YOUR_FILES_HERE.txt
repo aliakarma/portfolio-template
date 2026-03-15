@@ -1,0 +1,8 @@
+Place the following files in this folder:
+
+1. profile.jpg      — Your profile photo (square, at least 400×400 px)
+2. YOUR_NAME_CV.pdf — Your CV/resume as a PDF
+3. favicon.ico      — Your site favicon (optional — a default is used if missing)
+
+Then update siteConfig.js:
+  cv: "/YOUR_NAME_CV.pdf"   ← match the filename you used
