@@ -32,7 +32,7 @@ const siteConfig = {
   // ---------------------------------------------------------------------------
   email:    "YOUR_EMAIL@example.com",
   github:   "https://github.com/YOUR_GITHUB_USERNAME",
-  scholar:  "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID",
+  scholar:  "https://scholar.google.com/",
   linkedin: "https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME",
   cv:       "/YOUR_NAME_CV.pdf",  // Put your CV PDF in the /public folder with this filename
 
