@@ -1,15 +1,5 @@
 <div align="center">
 
-<br />
-
-```
-╔═══════════════════════════════════════════════════╗
-║                                                   ║
-║        ACADEMIC  PORTFOLIO  TEMPLATE              ║
-║                                                   ║
-╚═══════════════════════════════════════════════════╝
-```
-
 # The Academic Portfolio — Built for Researchers
 
 **A stunning, production-ready portfolio for academics, researchers, and students.**
