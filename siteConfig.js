@@ -17,8 +17,8 @@ const siteConfig = {
   // PERSONAL INFORMATION
   // ---------------------------------------------------------------------------
   name: {
-    first: "YOUR_FIRST_NAME",    // e.g. "Maria"
-    last:  "YOUR_LAST_NAME",     // e.g. "Santos"
+    first: "FIRST_NAME",    // e.g. "Maria"
+    last:  "LAST_NAME",     // e.g. "Santos"
   },
 
   title:       "YOUR_TITLE",           // e.g. "AI Researcher" or "Software Engineer"
