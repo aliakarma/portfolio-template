@@ -16,6 +16,7 @@ import { MapPin, Calendar, Award, BookOpen, Microscope, GraduationCap, Github, L
 import PageTransition from '../components/PageTransition'
 import SectionReveal from '../components/SectionReveal'
 import { profile } from '../data/profile'
+import { publications } from '../data/publications'
 
 export default function About() {
   const fullName = `${profile.name.first} ${profile.name.last}`
