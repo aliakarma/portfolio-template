@@ -1,342 +1,341 @@
-<div align="center">
+# 🎓 Academic Portfolio — Open Source Template
 
-# The Academic Portfolio — Built for Researchers
+A beautiful, production-ready portfolio website for researchers, academics, and students.
+Dark "Scholarly Noir" design with animated particles, interactive knowledge graph, publication
+dashboard with BibTeX export, project modals, skill radar chart, and more.
 
-**A stunning, production-ready portfolio for academics, researchers, and students.**
-*Stop using plain Google Sites. Your work deserves better.*
-
-<br />
-
-[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind-3-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-ff0055?style=for-the-badge&logo=framer)](https://framer.com/motion)
-[![License: MIT](https://img.shields.io/badge/License-MIT-e8a900?style=for-the-badge)](LICENSE)
-[![Deploy on Vercel](https://img.shields.io/badge/Deploy-Vercel-000?style=for-the-badge&logo=vercel)](https://vercel.com)
-
-<br />
-
-[**View Live Demo →**](https://YOUR_DEMO_LINK_HERE) &nbsp;·&nbsp; [**Use This Template →**](https://github.com/YOUR_USERNAME/YOUR_REPO/generate) &nbsp;·&nbsp; [**Report a Bug**](https://github.com/YOUR_USERNAME/YOUR_REPO/issues)
-
-<br />
-
-> ⭐ **If this template saves you time, please give it a star — it helps other researchers find it.**
-
-<br />
+> **You do not need to know React to use this template.**
+> Almost everything is customized by editing plain text in a few data files.
 
 ---
 
-</div>
+## 🌐 Live Demo
 
-<br />
-
-## Why This Template?
-
-Most academic portfolios look like they were built in 2010.
-This one doesn't.
-
-Built with the same tools used by top-tier tech products, this template gives you a portfolio that looks like you hired a designer — without hiring a designer. It is dark, elegant, and serious. Exactly the impression you want to make on PhD committees, hiring managers, and collaborators.
-
-**And the best part:** you do not need to know React, JavaScript, or web development. Just fill in a few text files and your site is ready.
-
-<br />
+[View Demo →](https://portfolio-template-mauve-one.vercel.app/)
 
 ---
 
-## What It Looks Like
+## ✨ Features
 
-<br />
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  │
-│  ░  ·  ·  gold particle background  ·  ·  ·  ·  ·  ·  ·  ░  │
-│  ░                                                        ░  │
-│  ░   YOUR NAME                  ┌──────────────────────┐  ░  │
-│  ░   ─────────────              │  12  Publications    │  ░  │
-│  ░   AI Researcher              │   5  Research Areas  │  ░  │
-│  ░                              │  16  Citations       │  ░  │
-│  ░   "Designing safe and        │   3  h-index         │  ░  │
-│  ░    trustworthy systems."     └──────────────────────┘  ░  │
-│  ░                                                        ░  │
-│  ░   [View Research]  [Scholar]  [Download CV]            ░  │
-│  ░                                                        ░  │
-│  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  │
-└─────────────────────────────────────────────────────────────┘
-```
-
-<br />
+| Feature | Description |
+|--------|-------------|
+| 🎨 Scholarly Noir theme | Dark background, warm gold accents, elegant serif fonts |
+| ✨ Particle background | Animated floating gold particles on every page |
+| 🕸️ Knowledge graph | Interactive D3.js map of your research topics |
+| 📚 Publication dashboard | Filter by status, type, topic — with BibTeX modals |
+| 🔬 Reproducibility panel | Per-paper links to code, datasets, notebooks |
+| 📊 Scholar metrics | Citations, h-index, i10-index display |
+| 🧩 Project modals | Expandable detail view for each project |
+| 📈 Animated counters | Stats that count up on scroll |
+| 📱 Mobile-friendly | Works on phones, tablets, and desktops |
+| 🚀 Free deployment | GitHub Pages and Vercel both supported |
 
 ---
 
-## Features
-
-<br />
-
-### 🎨 Design System
-
-| | Feature | Detail |
-|---|---------|--------|
-| ◆ | **Scholarly Noir Theme** | Deep dark background, warm gold accents, Cormorant Garamond + JetBrains Mono |
-| ◆ | **Animated Particle Field** | 80 floating gold particles on a canvas — subtle and elegant |
-| ◆ | **Page Transitions** | Framer Motion enter/exit animations between every page |
-| ◆ | **Scroll Reveal** | Sections animate into view as you scroll down |
-| ◆ | **Noise Texture** | Adds depth and a print-like quality to the background |
-| ◆ | **Fully Responsive** | Looks great on mobile, tablet, and desktop |
-
-<br />
-
-### 📚 Publications
-
-| | Feature | Detail |
-|---|---------|--------|
-| ◆ | **Publication Dashboard** | Filter papers by status, type, and topic tag |
-| ◆ | **BibTeX Modal** | One-click BibTeX copy for every paper |
-| ◆ | **Reproducibility Panel** | Per-paper links to code, dataset, and notebook |
-| ◆ | **Scholar Metrics** | Citations, h-index, i10-index on the home page |
-| ◆ | **Abstract Expand** | Clean collapsible abstract for each paper |
-| ◆ | **Status Badges** | Color-coded Published / Accepted / Under Review |
-
-<br />
-
-### 🕸️ Knowledge Graph
-
-| | Feature | Detail |
-|---|---------|--------|
-| ◆ | **D3.js Force Graph** | Interactive, draggable research topic network |
-| ◆ | **Hover Tooltips** | Description and paper count on hover |
-| ◆ | **Color-coded Groups** | Core topics (gold), Methods (blue), Domains (green) |
-| ◆ | **Auto-layout** | Topics arrange themselves — no manual positioning needed |
-
-<br />
-
-### 🧩 Everything Else
-
-| | Feature | Detail |
-|---|---------|--------|
-| ◆ | **Project Cards** | Modal detail view with linked publication |
-| ◆ | **Skills Radar Chart** | SVG radar chart built from your skill data |
-| ◆ | **Animated Counters** | Stats count up when they enter the viewport |
-| ◆ | **Contact Form** | Pre-fills your email client — no backend needed |
-| ◆ | **Custom 404** | Branded not-found page |
-| ◆ | **Free to Deploy** | Works on Vercel and GitHub Pages |
-
-<br />
-
----
-
-## Quick Start
-
-You need **Node.js 18+** installed. Download it at [nodejs.org](https://nodejs.org) if you don't have it.
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
-
-# 2. Install dependencies (only once)
-npm install
-
-# 3. Start the development server
-npm run dev
-```
-
-Open **http://localhost:3000** — your site is running.
-
-Now open **`siteConfig.js`** and replace the `YOUR_` placeholders with your own details.
-The browser refreshes automatically every time you save.
-
-<br />
-
----
-
-## Customization Guide
-
-> **Everything you need to edit is in one of five files.**
-> You never need to touch any component, style, or config file.
-
-<br />
-
-### `siteConfig.js` — Your Identity
-
-This is the only file most users ever need to edit.
-It controls your name, bio, links, education, experience, and awards everywhere on the site.
-
-```js
-name:        { first: "Maria", last: "Santos" },
-title:       "AI Researcher",
-institution: "MIT",
-email:       "maria@mit.edu",
-github:      "https://github.com/maria-santos",
-scholar:     "https://scholar.google.com/...",
-bio:         "2–3 sentences about your research focus.",
-```
-
-Save the file → browser refreshes → your info appears everywhere instantly.
-
-<br />
-
-### `data/publications.js` — Your Papers
-
-Each paper is one object in the array. Add as many as you want.
-
-```js
-{
-  id:          1,
-  title:       "Your Paper Title",
-  authorsStr:  "Santos, M., Co-Author, A., et al.",
-  venueShort:  "NeurIPS",
-  type:        "conference",    // "conference" | "journal" | "book_chapter"
-  year:        2024,
-  status:      "published",    // "published" | "accepted" | "review"
-  statusLabel: "NeurIPS 2024",
-  tags:        ["Machine Learning", "Optimization"],
-  doi:         "https://doi.org/...",   // or null
-  pdf:         "https://arxiv.org/...", // or null
-  code:        "https://github.com/...", // or null
-  abstract:    "Paste your full abstract here.",
-  bibtex:      `@inproceedings{...}`,
-},
-```
-
-<br />
-
-### `data/projects.js` — Your Projects
-
-```js
-{
-  id:           1,
-  title:        "Project Name",
-  description:  "2–3 sentences about what it does and why it matters.",
-  technologies: ["Python", "PyTorch", "FastAPI"],
-  github:       "https://github.com/you/repo",
-  featured:     true,   // true = shown at top of page
-  status:       "Published",
-  paper:        1,      // links to publications.js id, or null
-},
-```
-
-<br />
-
-### `data/researchThemes.js` — Knowledge Graph
-
-```js
-// A node = one research topic bubble
-{ id: "machine-learning", label: "Machine Learning",
-  group: "core",   // "core" (gold) | "method" (blue) | "domain" (green)
-  size: 20, description: "One sentence.", papers: [1, 2] },
-
-// An edge = a connection between two topics
-{ source: "machine-learning", target: "computer-vision", weight: 2 },
-// weight: 1 (thin line) → 3 (thick line)
-```
-
-<br />
-
-### `pages/skills.js` — Your Skills
-
-Edit the `skills` object at the top of the file:
-
-```js
-const skills = {
-  'AI & Machine Learning': [
-    { name: 'Python',  level: 92 },  // level = 0–100
-    { name: 'PyTorch', level: 85 },
-  ],
-}
-```
-
-<br />
-
-### Adding Your Photo and CV
-
-| What | Where to put it | How to link |
-|------|----------------|-------------|
-| Profile photo | `public/profile.jpg` | Automatic — no action needed |
-| CV / Resume | `public/Maria_Santos_CV.pdf` | Set `cv: "/Maria_Santos_CV.pdf"` in `siteConfig.js` |
-
-<br />
-
----
-
-## Deployment
-
-### → Vercel (Recommended — zero config, free)
-
-```bash
-# Push your code to GitHub, then run:
-npx vercel
-```
-
-Or go to [vercel.com](https://vercel.com), connect your GitHub repo, and click **Deploy**.
-Every future `git push` auto-deploys your changes. No configuration needed.
-
-<br />
-
-### → GitHub Pages (Free)
-
-```bash
-# 1. Set your homepage URL in package.json:
-#    "homepage": "https://YOUR_USERNAME.github.io"
-
-# 2. Run the deploy command
-npm run deploy
-
-# 3. In GitHub: Settings → Pages → Source: gh-pages branch
-```
-
-> **Note:** If your repo is named `my-portfolio` (not `username.github.io`), uncomment
-> `basePath: '/my-portfolio'` in `next.config.js`.
-
-<br />
-
----
-
-## Project Structure
+## 📁 What's in This Folder
 
 ```
 portfolio/
 │
-├── siteConfig.js          ← ⭐ Edit this first — all personal info lives here
+├── siteConfig.js          ⭐ START HERE — fill in your personal info
 │
 ├── data/
-│   ├── publications.js    ← Your papers
-│   ├── projects.js        ← Your projects
-│   ├── researchThemes.js  ← Knowledge graph nodes and edges
-│   ├── blog.js            ← Blog post previews
-│   └── profile.js         ← DO NOT edit (auto-reads from siteConfig)
+│   ├── publications.js    Add your papers here
+│   ├── projects.js        Add your projects here
+│   ├── researchThemes.js  Customize the knowledge graph
+│   ├── blog.js            Add blog post previews
+│   └── profile.js         DO NOT edit — reads from siteConfig.js
 │
 ├── pages/
 │   ├── index.js           Home page
 │   ├── about.js           About page
 │   ├── research.js        Publications page
 │   ├── projects.js        Projects page
-│   ├── skills.js          Skills page  ← also edit the skills object here
+│   ├── skills.js          Skills page  ← also edit the skills array inside
 │   ├── blog.js            Writing page
 │   ├── contact.js         Contact page
-│   └── 404.js             Not found page
+│   ├── 404.js             Not found page
+│   ├── _app.js            App wrapper (do not edit)
+│   └── _document.js       HTML head / SEO tags
 │
-├── components/            UI components — do not edit
-├── styles/globals.css     Design system — do not edit
+├── components/            UI building blocks (do not edit)
+├── styles/globals.css     Design system / colors (do not edit)
 │
-└── public/
-    ├── profile.jpg        ← Your photo goes here
-    └── YOUR_NAME_CV.pdf   ← Your CV goes here
+├── public/
+│   ├── profile.jpg        ⭐ Put your photo here
+│   └── YOUR_NAME_CV.pdf   ⭐ Put your CV here
+│
+├── next.config.js
+├── tailwind.config.js
+├── package.json
+└── README.md
 ```
-
-<br />
 
 ---
 
-## Tech Stack
+## ⚡ Setup — Step by Step
 
-| Technology | Version | Purpose |
-|-----------|---------|---------|
-| [Next.js](https://nextjs.org) | 14 | React framework + static export |
-| [TailwindCSS](https://tailwindcss.com) | 3 | Utility-first styling |
-| [Framer Motion](https://framer.com/motion) | 11 | Animations and page transitions |
-| [D3.js](https://d3js.org) | 7 | Force-directed knowledge graph |
-| [Lucide React](https://lucide.dev) | latest | Icon library |
-| Google Fonts | — | Cormorant Garamond · Source Serif 4 · JetBrains Mono |
+### Requirements
+
+You need these installed on your computer:
+
+- **Node.js 18+** → [nodejs.org](https://nodejs.org) (download the LTS version)
+- **npm** → comes with Node.js automatically
+- **Git** → [git-scm.com](https://git-scm.com)
+
+Check they work by opening a terminal and typing:
+```bash
+node --version    # should show v18 or higher
+npm --version     # should show a number
+```
+
+### Install and Run
+
+```bash
+# 1. Clone or download this repository
+git clone https://github.com/aliakarma/portfolio-template.git
+cd portfolio-template
+
+# 2. Install dependencies (only needed once)
+npm install
+
+# 3. Start the local development server
+npm run dev
+
+# 4. Open in your browser
+# → http://localhost:3000
+```
+
+The site will automatically refresh every time you save a file.
+
+---
+
+## ✏️ How to Customize
+
+### Step 1 — Your Personal Info (most important)
+
+Open **`siteConfig.js`** and replace every `YOUR_` value:
+
+```js
+name: {
+  first: "Maria",        // your first name
+  last:  "Santos",       // your last name
+},
+title:       "AI Researcher",
+institution: "MIT",
+location:    "Cambridge, USA",
+email:       "maria@mit.edu",
+github:      "https://github.com/maria-santos",
+scholar:     "https://scholar.google.com/citations?user=XXXX",
+linkedin:    "https://www.linkedin.com/in/maria-santos",
+cv:          "/Maria_Santos_CV.pdf",
+bio:         "Write 2–3 sentences about yourself here.",
+```
+
+Save the file → browser refreshes → your name and info appear everywhere.
+
+---
+
+### Step 2 — Profile Photo
+
+1. Find a photo of yourself (square crop, min 400×400 px)
+2. Rename it to exactly: **`profile.jpg`**
+3. Place it in the **`public/`** folder
+4. It appears automatically on the About page
+
+---
+
+### Step 3 — Your CV
+
+1. Export your CV as a PDF
+2. Rename it (e.g. `Maria_Santos_CV.pdf`)
+3. Place it in the **`public/`** folder
+4. In `siteConfig.js` update: `cv: "/Maria_Santos_CV.pdf"`
+
+---
+
+### Step 4 — Publications
+
+Open **`data/publications.js`** and replace the example entries with your own papers.
+
+Each paper looks like this:
+
+```js
+{
+  id: 1,                    // unique number — don't repeat
+  title: "Your Paper Title",
+  authors: ["Santos, M.", "Co-Author, A.", "et al."],
+  authorsStr: "Santos, M., Co-Author, A., et al.",
+  venue: "International Conference on Machine Learning",
+  venueShort: "ICML",
+  type: "conference",       // "conference" | "journal" | "book_chapter"
+  year: 2024,
+  status: "published",      // "published" | "accepted" | "review"
+  statusLabel: "ICML 2024",
+  tags: ["Machine Learning", "Optimization"],
+  doi:      "https://doi.org/10.xxxx/xxxxx",  // or null
+  pdf:      "https://arxiv.org/pdf/xxxx",      // or null
+  code:     "https://github.com/you/repo",     // or null
+  dataset:  null,
+  notebook: null,
+  abstract: "Paste your full abstract here.",
+  bibtex: `@inproceedings{santos2024,
+  title={Your Paper Title},
+  author={Santos, Maria},
+  booktitle={ICML},
+  year={2024}
+}`,
+},
+```
+
+Add as many as you want. Delete the examples when you are done.
+
+---
+
+### Step 5 — Projects
+
+Open **`data/projects.js`** and fill in your projects:
+
+```js
+{
+  id: 1,
+  title: "My Project Name",
+  description: "2–3 sentences explaining what it does and why it's interesting.",
+  technologies: ["Python", "PyTorch", "FastAPI"],
+  github: "https://github.com/you/repo",  // or null
+  demo:   null,
+  tags: ["Machine Learning", "Healthcare"],
+  themes: ["Deep Learning", "Applications"],
+  featured: true,   // true = top section, false = "All Projects" section
+  status: "Published",
+  paper: 1,         // id from publications.js, or null
+},
+```
+
+Set `featured: true` for your best 3 projects (they appear prominently at the top).
+
+---
+
+### Step 6 — Knowledge Graph
+
+Open **`data/researchThemes.js`** and rename the placeholder nodes and edges to match your research areas.
+
+```js
+// A node = one research topic
+{
+  id: "machine-learning",      // unique ID (lowercase-with-dashes)
+  label: "Machine Learning",   // text on graph
+  group: "core",               // "core" (gold) | "method" (blue) | "domain" (green)
+  size: 20,                    // circle size: 10–25
+  description: "One sentence.",
+  papers: [1, 2],              // IDs from publications.js
+},
+
+// An edge = a connection between two topics
+{ source: "machine-learning", target: "computer-vision", weight: 2 },
+// weight: 1 = thin line, 3 = thick line
+```
+
+Keep 6–10 nodes total. The graph gets cluttered with more.
+
+---
+
+### Step 7 — Skills
+
+Open **`pages/skills.js`** and edit the `skills` object at the top of the file:
+
+```js
+const skills = {
+  'AI & Machine Learning': [
+    { name: 'Python',       level: 92 },  // level = 0 to 100
+    { name: 'PyTorch',      level: 85 },
+    { name: 'Scikit-learn', level: 80 },
+  ],
+  'Research & Writing': [
+    { name: 'Academic Writing', level: 90 },
+    { name: 'Literature Review', level: 88 },
+  ],
+}
+```
+
+Also edit the `clusters` array a bit lower — these become the word cloud at the bottom.
+
+---
+
+### Step 8 — SEO Meta Tags
+
+Open **`pages/_document.js`** and update the 4 meta tag lines at the top:
+
+```js
+<meta name="description"  content="Maria Santos — AI Researcher at MIT specializing in machine learning." />
+<meta name="keywords"     content="Maria Santos, AI, Machine Learning, MIT" />
+<meta property="og:title" content="Maria Santos — AI Researcher" />
+<meta property="og:description" content="Machine Learning · Computer Vision · NLP" />
+```
+
+---
+
+## 🚀 Deploy for Free
+
+### Option A — Vercel (easiest, recommended)
+
+1. Push your code to GitHub
+2. Go to [vercel.com](https://vercel.com) → sign in with GitHub
+3. Click **New Project** → select your repository → click **Deploy**
+
+Done. Live at `https://your-repo.vercel.app`. Auto-deploys on every git push.
+
+---
+
+### Option B — GitHub Pages
+
+```bash
+# Update your homepage URL in package.json first:
+# "homepage": "https://YOUR_USERNAME.github.io"
+
+npm run deploy
+```
+
+Then go to: GitHub repo → **Settings** → **Pages** → Source: **gh-pages branch**
+
+> If your repo is NOT named `username.github.io`, uncomment `basePath` in `next.config.js`
+> and set it to your repo name: `basePath: '/your-repo-name'`
+
+---
+
+## ❌ Common Mistakes
+
+| Mistake | What happens | Fix |
+|---------|-------------|-----|
+| Photo not named `profile.jpg` | Photo doesn't appear | Rename to exactly `profile.jpg` |
+| Two publications with same `id` | Display bug | Give every paper a unique number |
+| Writing `""` instead of `null` for empty links | JavaScript error | Use `null`, not `""` |
+| Editing `data/profile.js` directly | Changes get ignored | Edit `siteConfig.js` instead |
+| More than 3 projects with `featured: true` | Layout looks crowded | Keep featured ≤ 3 |
+| Edge `source`/`target` typo | Graph won't render | Copy the exact `id` string from the node |
+| CV file not in `public/` folder | Download link broken | Move PDF into `public/` folder |
+
+---
+
+## 🎨 Changing the Color Scheme
+
+The gold color is defined in `tailwind.config.js`. To change it, find the `gold` section
+and replace the hex values with your preferred color. The main accent is `gold-500: '#e8a900'`.
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| [Next.js 14](https://nextjs.org) | React framework + static export |
+| [TailwindCSS 3](https://tailwindcss.com) | Styling |
+| [Framer Motion 11](https://framer.com/motion) | Animations |
+| [D3.js 7](https://d3js.org) | Knowledge graph |
+| [Lucide React](https://lucide.dev) | Icons |
+| Google Fonts | Cormorant Garamond, Source Serif 4, JetBrains Mono |
+
+---
 
 <br />
 
@@ -388,7 +387,7 @@ Yes. Open <code>tailwind.config.js</code> and find the <code>gold</code> color b
 
 Found a bug? Have an improvement idea?
 
-1. [Open an issue](https://github.com/YOUR_USERNAME/YOUR_REPO/issues) describing the problem
+1. [Open an issue](https://github.com/aliakarma_REPO/issues) describing the problem
 2. Fork the repo and create a branch: `git checkout -b fix/description`
 3. Make your changes and open a pull request
 
