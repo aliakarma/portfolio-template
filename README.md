@@ -163,7 +163,7 @@ Each paper looks like this:
 ```js
 {
   id: 1,                    // unique number — don't repeat
-  title: "Your Paper Title",
+  title: "Paper Title",
   authors: ["Santos, M.", "Co-Author, A.", "et al."],
   authorsStr: "Santos, M., Co-Author, A., et al.",
   venue: "International Conference on Machine Learning",
