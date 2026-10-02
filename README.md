@@ -154,7 +154,7 @@ Save the file → browser refreshes → your name and info appear everywhere.
 
 ---
 
-### Step 4 — Publications
+### Step 4 — Publication
 
 Open **`data/publications.js`** and replace the example entries with your own papers.
 
